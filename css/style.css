@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+
 body {
    background-color: hsl(225, 100%, 94%);
 }
@@ -13,10 +14,15 @@ body {
 }
 
 h2 {
-    margin: 0;
+    margin: 0 0 2px 0;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 1rem ;
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+span {
+   color: hsl(227, 4%, 60%);
+   font-size: 1rem ;
 }
 
 .text {
@@ -41,23 +47,36 @@ p {
     border-radius: 5px;
     color: #fff;
     border: none;
+    margin-bottom: 10px;
 }
 
 .content {
     display: flex;
-    /* flex-direction: row;
-    justify-content: space-between; */
     align-items: center;
-    background-color:   hsl(229, 26%, 92%);
+    background-color:   hsl(0, 0%, 100%);
     padding: 5px;
     border-radius: 5px;
     margin-bottom: 20px;
+}
+
+
+
+.second-div {
+    flex-grow: 1;
+    gap: 5px;
 }
 
 a {
     text-decoration: none;
     font-weight: 400;
     color: hsl(224, 51%, 41%);
+}
+
+.cancel {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 1rem ;
+    color: #000;
 }
 
 .card {
@@ -68,8 +87,8 @@ a {
 
 .card-body {
     padding: 10px 20px;
-    margin: 0 auto;
-    background-color: hsl(225, 100%, 98%)
+    background-color: hsl(225, 100%, 98%);
+    
 }
 
 .card-img-top {
